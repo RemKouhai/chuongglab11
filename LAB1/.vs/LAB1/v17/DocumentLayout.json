@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ltm\\TH\\LAB1\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\M\u00E1y t\u00EDnh\\chuongglab11\\LAB1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|D:\\ltm\\TH\\LAB1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|c:\\users\\admin\\onedrive - tr\u01B0\u1EDDng \u0111h cntt - university of information technology\\m\u00E1y t\u00EDnh\\chuongglab11\\lab1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|d:\\ltm\\th\\lab1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\M\u00E1y t\u00EDnh\\chuongglab11\\LAB1\\bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22551D17-0985-4011-A55C-3FB66627AC79}|bai1\\bai1.csproj|solutionrelative:bai1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\ltm\\TH\\LAB1\\bai1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\M\u00E1y t\u00EDnh\\chuongglab11\\LAB1\\bai1\\Form1.cs",
               "RelativeDocumentMoniker": "bai1\\Form1.cs",
-              "ToolTip": "D:\\ltm\\TH\\LAB1\\bai1\\Form1.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\M\u00E1y t\u00EDnh\\chuongglab11\\LAB1\\bai1\\Form1.cs",
               "RelativeToolTip": "bai1\\Form1.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAmwJYAAAAAAAAA",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAgwM0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T11:20:45.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\ltm\\TH\\LAB1\\bai1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\OneDrive - Tr\u01B0\u1EDDng \u0110H CNTT - University of Information Technology\\M\u00E1y t\u00EDnh\\chuongglab11\\LAB1\\bai1\\Form1.cs",
               "RelativeDocumentMoniker": "bai1\\Form1.cs",
               "ToolTip": "D:\\ltm\\TH\\LAB1\\bai1\\Form1.cs [Design]",
-              "RelativeToolTip": "bai1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:28:53.396Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-18T03:28:53.396Z"
             }
           ]
         }

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace bai1
 {
@@ -43,24 +44,31 @@ namespace bai1
         {
             numbers.Clear();
             string input = textBox1.Text;
+            input = input.Replace(".",",");
             string[] numberStrings = input.Split(' ');
-            
+     
+           
+           
 
-            foreach (string numberString in numberStrings)
+                foreach (string numberString in numberStrings)
             {
-               
+
+
                 if (double.TryParse(numberString, out double number))
                 {
-                   
+
                     if (number >= 0 && number <= 10)
                     {
-                        numbers.Add((int)number);
+                        numbers.Add((double)number);
                     }
                     else
                     {
-                        MessageBox.Show("Vui lòng nhập số trong khoảng từ 0 đến 10 và dùng ',' cho số thập phân!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Vui lòng nhập số trong khoảng từ 0 đến 10", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
+                
+
+                  
             }
         }
 
@@ -86,7 +94,7 @@ namespace bai1
             dtb.Text = output1;
             ////////////////diem cao nhat//////////////////////////////////
             string output2 = "";
-            double cn = 0;
+            double cn = (double)numbers[0];
             for (int i = 0; i < numbers.Count; i++)
             {
                 if ((double)numbers[i] > cn) { cn = (double)numbers[i]; }
@@ -95,10 +103,10 @@ namespace bai1
             dcn.Text = output2;
             ////////////////diem thap nhat//////////////////////////////////
             string output3 = "";
-            double tn = 0;
+            double tn = (double)numbers[0];
             for (int i = 0; i < numbers.Count; i++)
             {
-                if ((double)numbers[i] <= tn) { tn = (double)numbers[i]; }
+                if ((double)numbers[i] < tn) { tn = (double)numbers[i]; }
             }
             output3 = tn.ToString();
             dtt.Text = output3;
@@ -182,6 +190,17 @@ namespace bai1
         private void rot_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            int code = Convert.ToInt32(e.KeyChar);
+           
+            if ((code >= 48 && code <= 57) || code == 8 || code == 45 ||code==32 || code == 46 || code == 44)
+            {
+                e.Handled = false;
+            }
+            else e.Handled = true;
         }
     }
 }

@@ -47,6 +47,7 @@
             this.hl = new System.Windows.Forms.TextBox();
             this.dtt = new System.Windows.Forms.TextBox();
             this.rot = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -72,6 +73,7 @@
             this.textBox1.Size = new System.Drawing.Size(610, 22);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button1
             // 
@@ -255,6 +257,7 @@
         private System.Windows.Forms.TextBox hl;
         private System.Windows.Forms.TextBox dtt;
         private System.Windows.Forms.TextBox rot;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
